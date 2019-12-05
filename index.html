@@ -81,46 +81,96 @@
         </div>
     </header>
 
-    <div class="container">
-        <div class="advantages__items">
-            <div class="row">
-                <div class="advantages__item col-4">
-                    <div class="advantages__item-img"><img src="img/advantages1.png" alt=""></div>
-                    <div class="advantages__item-title">Более 1000 наименований</div>
-                    <div class="advantages__item-text">Возможность заказа и подбора более чем по 2000 наименований
-                        деталей
+    <div class="advantages">
+        <div class="container">
+            <div class="advantages__items">
+                <div class="row">
+                    <div class="advantages__item col-4">
+                        <div class="advantages__item-img"><img src="img/advantages1.png" alt=""></div>
+                        <div class="advantages__item-title">Более 1000 наименований</div>
+                        <div class="advantages__item-text">Возможность заказа и подбора более чем по 2000 наименований
+                            деталей
+                        </div>
+                    </div>
+                    <div class="advantages__item col-4">
+                        <div class="advantages__item-img"><img src="img/advantages2.png" alt=""></div>
+                        <div class="advantages__item-title">Доставка в любой регион РФ</div>
+                        <div class="advantages__item-text">Мы работаем с любой транспортной компанией и осуществляем
+                            доставку в
+                            любой регион РФ</div>
+                    </div>
+                    <div class="advantages__item col-4">
+                        <div class="advantages__item-img"><img src="img/advantages3.png" alt=""></div>
+                        <div class="advantages__item-title">Новое состояние деталей</div>
+                        <div class="advantages__item-text">Наши детали не были в употреблении и имеют состояние новых
+                        </div>
                     </div>
                 </div>
-                <div class="advantages__item col-4">
-                    <div class="advantages__item-img"><img src="img/advantages2.png" alt=""></div>
-                    <div class="advantages__item-title">Доставка в любой регион РФ</div>
-                    <div class="advantages__item-text">Мы работаем с любой транспортной компанией и осуществляем
-                        доставку в
-                        любой регион РФ</div>
-                </div>
-                <div class="advantages__item col-4">
-                    <div class="advantages__item-img"><img src="img/advantages3.png" alt=""></div>
-                    <div class="advantages__item-title">Новое состояние деталей</div>
-                    <div class="advantages__item-text">Наши детали не были в употреблении и имеют состояние новых</div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="advantages__item col-4 offset-2">
-                    <div class="advantages__item-img"><img src="img/advantages4.png" alt=""></div>
-                    <div class="advantages__item-title">Европейское качество</div>
-                    <div class="advantages__item-text">Все наши детали привезены из Европы, что гарантирует отличное
-                        качество.</div>
-                </div>
-                <div class="advantages__item col-4">
-                    <div class="advantages__item-img"><img src="img/advantages5.png" alt=""></div>
-                    <div class="advantages__item-title">Работаем по договору</div>
-                    <div class="advantages__item-text">Все, что мы делаем - официально. Мы заключаем договор
-                        купли-продажи и
-                        предоставляем все необходимые документы.</div>
+                <div class="row">
+                    <div class="advantages__item col-4 offset-2">
+                        <div class="advantages__item-img"><img src="img/advantages4.png" alt=""></div>
+                        <div class="advantages__item-title">Европейское качество</div>
+                        <div class="advantages__item-text">Все наши детали привезены из Европы, что гарантирует отличное
+                            качество.</div>
+                    </div>
+                    <div class="advantages__item col-4">
+                        <div class="advantages__item-img"><img src="img/advantages5.png" alt=""></div>
+                        <div class="advantages__item-title">Работаем по договору</div>
+                        <div class="advantages__item-text">Все, что мы делаем - официально. Мы заключаем договор
+                            купли-продажи и
+                            предоставляем все необходимые документы.</div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <div class="request">
+        <div class="container">
+            <div class="request__title">
+                Подробная заявка
+            </div>
+            <div class="request__subtitle">
+                Заполните форму и получите максимально точную цену!
+            </div>
+            <div class="request__form row">
+                <div class="col-4">
+                    <div class="request__form-field">Марка:</div>
+                    <select name="brand" id="" class="form-control select-down">
+                        <option disabled selected>Выберите марку</option>
+                        <option value="audi">Audi</option>
+                        <option value="mercedes">Mercedes-Benz</option>
+                    </select>
+                    <div class="request__form-field">Модель:</div>
+                    <select name="model" id="" class="form-control select-down">
+                        <option disabled selected>Выберите модель</option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+                    <div class="request__form-field">Год выпуска:</div>
+                    <select name="year" id="" class="form-control select-down">
+                        <option disabled selected>Выберите год</option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+                </div>
+                <div class="col-4">
+                    <div class="request__form-field">Необходимые детали:</div>
+                    <textarea class="form-control detail" placeholder="Введите"></textarea>
+                    <div class="request__form-field">Ваше имя:</div>
+                    <input class="form-control" type="text" placeholder="Введите">
+                </div>
+                <div class="col-4">
+                    <div class="request__form-field">Ваш телефон:</div>
+                    <input class="form-control" type="text" placeholder="+7 (9__) ___-__-__">
+                    <div class="request__form-field">Ваш e-mail:</div>
+                    <input type="email" class="form-control" placeholder="Введите">
+                    <button type="button" class="btn btn-primary">Узнать цену</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- /.request -->
 </body>
 
 </html>

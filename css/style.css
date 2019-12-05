@@ -94,7 +94,6 @@ a {
     text-align: center;
     font-size: 30px;
     line-height: 46px;
-    font-weight: 400;
     margin-bottom: 100px;
 }
 
@@ -165,8 +164,84 @@ a {
 }
 .advantages__item-text {
     font-size: 14px;
-    font-weight: 400;
 }
 .advantages__items .row {
     margin-bottom: 80px;
+}
+
+.request {
+    background-color: #ebebeb;
+    padding: 80px 0;
+}
+.request__title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 21px;
+    text-align: center;
+}
+.request__subtitle {
+    font-size: 16px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.request__form {
+    border: 5.0px solid #ffffff;
+    padding: 40px 60px 60px 60px;
+}
+.request__form-field {
+    font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+select {
+    font-size: 13px;
+    color: #b8b8b8;
+    height: 40px;
+}
+.select-down {
+    position: relative;
+}
+.select-down::after {
+    content: "";
+    width: 1px;
+    height: 20px;
+    color: #e8e8e8;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+option {
+    font-size: 13px;
+    line-height: 25px;
+    color: #606060;
+}
+
+.btn-primary {
+    margin-top: 29px;
+    padding: 12px 70px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #287db8;
+    border-radius: 25px;
+    border: none;
+}
+
+textarea {
+    resize: none
+}
+
+textarea.form-control {
+    height: 117px;
+}
+
+::placeholder {
+    font-size: 13px;
+    color: #b8b8b8;
+}
+
+.form-control {
+    height: 38px;
+    font-size: 13px;
+    color: #b8b8b8;
 }
