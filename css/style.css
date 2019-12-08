@@ -43,6 +43,12 @@ a {
     text-decoration: none;
 }
 
+h3 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
 .container {
     max-width: 970px;
     margin: 0 auto;
@@ -174,10 +180,7 @@ a {
     padding: 80px 0;
 }
 .request__title {
-    font-size: 30px;
-    font-weight: 700;
     margin-bottom: 21px;
-    text-align: center;
 }
 .request__subtitle {
     font-size: 16px;
@@ -192,6 +195,7 @@ a {
     font-size: 13px;
     margin-top: 20px;
     margin-bottom: 8px;
+    font-weight: 700;
 }
 
 select {
@@ -244,4 +248,38 @@ textarea.form-control {
     height: 38px;
     font-size: 13px;
     color: #b8b8b8;
+}
+
+.stock {
+    padding: 80px;
+}
+.stock__title {
+    margin-bottom: 60px;
+}
+.stock__logo {
+}
+.stock__logo-row {
+    display: flex;
+    justify-content: center;
+}
+.stock__logo-row img {
+    padding: 20px;
+}
+
+.look {
+    margin-bottom: 80px;
+}
+.look__title {
+    margin-bottom: 60px;
+}
+
+.look__video {
+    border: 5px solid #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.look__video-frame {
 }
