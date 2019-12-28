@@ -262,8 +262,13 @@ textarea.form-control {
     display: flex;
     justify-content: center;
 }
-.stock__logo-row img {
+.stock__logo-offset {
     padding: 20px;
+    filter: grayscale(0.95);
+    transition: 1s;
+}
+.stock__logo-offset:hover {
+    filter: grayscale(0);
 }
 
 .look {
@@ -275,11 +280,14 @@ textarea.form-control {
 
 .look__video {
     border: 5px solid #f2f2f2;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
     padding: 20px;
 }
 
-.look__video-frame {
+.customers {
+    background-color: #ebebeb;
+    padding: 80px;
+}
+.customers__title {
+    margin-bottom: 60px;
 }
