@@ -362,7 +362,7 @@ textarea.form-control {
 }
 
 .contacts {
-    background: url(/img/map.jpg) center;
+    background: url(../img/map.jpg) center;
     height: 550px;
     padding-top: 50px;
 }
