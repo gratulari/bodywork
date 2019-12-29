@@ -256,8 +256,6 @@ textarea.form-control {
 .stock__title {
     margin-bottom: 60px;
 }
-.stock__logo {
-}
 .stock__logo-row {
     display: flex;
     justify-content: center;
@@ -286,8 +284,144 @@ textarea.form-control {
 
 .customers {
     background-color: #ebebeb;
-    padding: 80px;
+    padding-top: 80px;
+    padding-bottom: 24px;
 }
 .customers__title {
     margin-bottom: 60px;
+}
+.customers__item {
+    display: flex;
+    margin: 0 22px 56px;
+}
+.customers__item-img {
+    margin-right: 20px;
+}
+.customers__item-img img {
+    border-radius: 50%;
+    overflow: hidden;
+}
+.customer__item-review {
+    display: block;
+}
+.customers__items-row {
+    display: flex;
+}
+.customers__item-name {
+    font-size: 12px;
+    font-weight: 700;
+    color: #757575;
+    margin-bottom: 12px;
+}
+.customers__item-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #287db8;
+    margin-bottom: 14px;
+}
+.customers__item-text {
+    font-size: 13px;
+    font-weight: 700;
+    color: #2b2b2b;
+}
+
+.advice {
+    background-color: #dbdbdb;
+    padding: 80px 0;
+}
+.advice__title {
+    margin-bottom: 21px;
+}
+.advice__subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: #040404;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.advice__form {
+    border: 5.0px solid #ffffff;
+    padding: 40px 60px;
+    width: 750px;
+    margin: auto;
+}
+.advice__form-fields {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 11px;
+}
+.advice__form-button {
+    text-align: center;
+}
+.advice__form-button .btn-primary {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.advice__form .form-control {
+    width: 290px;
+}
+
+.contacts {
+    background: url(/img/map.jpg) center;
+    height: 550px;
+    padding-top: 50px;
+}
+.contacts__inner {
+    width: 480px;
+    background-color: #287db8;
+    text-align: center;
+    color: #ffffff;
+    padding: 60px;
+    margin: 0 auto;
+}
+.contacts__title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.contacts_address {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.contacts__phone {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.contacts__email {
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.contacts__inner a {
+    color: #ffffff;
+}
+
+.footer__logo__phone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.footer__logo {
+    font-size: 30px;
+    color: #5a5a5a;
+}
+.footer__phone {
+    text-align: right;
+}
+.footer__phone__number {
+    margin-bottom: 10px;
+}
+.footer__phone__number a {
+    font-size: 28px;
+    font-weight: 700;
+    color: #000000;
+}
+.footer__phone__feedback a {
+    font-size: 16px;
+    text-decoration: underline;
+    color: #287db8;
 }
